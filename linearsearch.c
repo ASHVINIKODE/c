@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i, a[100], search;
+    int i, a[100], search,k;
     printf("enter 10 numbers:");
     for (i = 0; i < 10; i++)
     {
@@ -32,7 +32,11 @@ int main()
 for(i=0;i<10;i++){
     if(a[i]==search){
         printf("number is found");
+        k++; 
+        break;
     }
+} if(k==0){
+    printf("number is not found");
 }
     return 0;
 }
