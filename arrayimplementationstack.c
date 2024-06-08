@@ -1,4 +1,5 @@
 #include <stdio.h>
+//push operation
 #include <stdlib.h>
 #define MAX 4
 int stack_arr[MAX];
