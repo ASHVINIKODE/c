@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int i, a[100], search,k;
-    printf("enter 10 numbers:");
-    for (i = 0; i < 10; i++)
-    {
-        scanf("%d", &a[i]);
-    }
+    int i, a[100]={55,43,67,32,867,213,443,43,21,5}, search,k;
+    // printf("enter 10 numbers:");
+    // for (i = 0; i < 10; i++)
+    // {
+    //     scanf("%d", &a[i]);
+    // }
     printf("enter the number that you want to search:");
     scanf("%d", &search);
     // if (a[0] == search)
@@ -31,7 +31,7 @@ int main()
     // }
 for(i=0;i<10;i++){
     if(a[i]==search){
-        printf("number is found");
+        printf("number is found at position %d",i+1);
         k++; 
         break;
     }
