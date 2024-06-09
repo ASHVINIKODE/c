@@ -45,10 +45,29 @@ int main()
     push(2);
     push(3);
     push(4);
-    data=pop();
-    data=pop();
+    data = pop();
+    data = pop();
     print();
-    printf("%d",data);
+    printf("%d", data);
 
     return 0;
 }
+// isfull() operation
+// instead of (top==MAX-1)
+//  void push(int data);
+//  {
+//      if(isfull()){
+//          printf("stack overflow");
+//          return;
+//      }
+//      top=top+1;
+//      stack_arr[top]=data;
+//  }  if isfull() returns 0 then stack is not full but if it returns 1 then it means  stack is full...
+
+// isEmpty()operation
+// int isEmpty(){
+//     if(top==-1)
+//     return 1;
+//     else
+//     return 0;
+// } use in pop operation..
